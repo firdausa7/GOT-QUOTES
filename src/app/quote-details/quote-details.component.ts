@@ -11,9 +11,13 @@ export class QuoteDetailsComponent implements OnInit {
   @Input() quote: Quote;
   @Output() isComplete = new EventEmitter<boolean>();//transmits to the delete trigger from parent component on delete function
 
-  quoteDelete(complete: boolean) {
+  quoteComplete(complete:boolean){
     this.isComplete.emit(complete);
   }
+  quoteDelete(complete:boolean){
+    this.isComplete.emit(complete);
+  }
+  constructor() { }
 
   ngOnInit() {
   }
