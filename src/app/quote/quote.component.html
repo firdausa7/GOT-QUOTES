@@ -12,7 +12,9 @@
           <hr>
           <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
           <p><app-vote></app-vote></p>
-
+          <div class="card-body" id="ppp">
+            <p id="{{i}}" appHighlight>{{quote.description}}</p>
+          </div>
         </div>
       </div>
     </div>
