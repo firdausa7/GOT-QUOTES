@@ -14,7 +14,7 @@
   }
   
   #cre {
-    color: yellow;
+    color: black;
   }
   
   #crd {
@@ -23,7 +23,7 @@
     width: 800px;
     margin-bottom: 10px;
     font-style: italic;
-    color: yellow;
+    color: black;
   }
   
   #small {
@@ -46,7 +46,7 @@
   #one {
     align-content: center;
     text-align: center;
-    color: yellow;
+    color: black;
     font-size: 16px;
   
   }
@@ -55,7 +55,7 @@
     padding: 4px;
     margin: 4px;
     border: none;
-    color: white;
+    color: black;
     width: 150px;
     font-variant: small-caps;
     font-size: 13px;
